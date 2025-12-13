@@ -1,0 +1,99 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.title-todo {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 30px; 
+  color: rgb(35, 165, 143); 
+}
+
+.todo-list-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 300px 100px 100px 50px;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 15px;
+  align-items: stretch;
+}
+
+.name-input,
+.date-input,
+.time-input {
+  padding: 12px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: rgb(35, 165, 143);
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(19, 161, 138, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.name-input::placeholder,
+.date-input::placeholder, 
+.time-input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.name-input:hover,
+.date-input:hover,
+.time-input:hover {
+  background-color: rgb(92, 168, 156);
+}
+
+.add-todo-button {
+  background-color: rgb(35, 165, 143);
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.add-todo-button:hover {
+  background-color: rgb(92, 168, 156);
+}
+
+.delete-button {
+  background-color: rgb(35, 165, 143);
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: rgb(92, 168, 156);
+}
+
+.bin-image {
+  width: 20px;
+  height: 20px;
+}
+
+.name-button,
+.dueDate-button,
+.time-button {
+  color: white;
+  background-color: rgb(34, 34, 34);
+  font-size: 12px;
+  padding: 12px 15px;
+  border-radius: 10px;
+}
