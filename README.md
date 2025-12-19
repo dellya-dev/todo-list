@@ -19,7 +19,7 @@ A simple Todo List application to manage daily tasks. Users can add, complete, a
 > Add your live demo link here
 
 ```
-https://dellya-dev.github.io/todo-app/
+https://dellya-dev.github.io/todo-lis/
 ```
 
 ## 📂 Project Structure
