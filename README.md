@@ -1,4 +1,4 @@
-# Todo List App
+# Todo List 
 
 A simple Todo List application to manage daily tasks. Users can add, complete, and delete tasks with an intuitive interface.
 
@@ -19,7 +19,7 @@ A simple Todo List application to manage daily tasks. Users can add, complete, a
 > Add your live demo link here
 
 ```
-https://dellya-dev.github.io/todo-lis/
+https://dellya-dev.github.io/todo-list/
 ```
 
 ## 📂 Project Structure
